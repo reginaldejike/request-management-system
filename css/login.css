@@ -1,80 +1,62 @@
-html,
-body {
-	height: 100vh;
-	padding: 0;
-	margin: 0;
-}
-
 .navbar.bg-inverse {
-	background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 .login {
-	margin: auto;
-	align-items: center;
-	justify-content: center;
-}
-
-section {
-	padding: 100px;
-	margin-bottom: 134px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 
 #adminlogin {
-	background: whitesmoke;
-	margin: auto;
-	padding: 30px;
-	width: 40%;
-	border-radius: 20px;
+  background: whitesmoke;
+  margin: auto;
+  padding: 30px;
+  width: 50%;
+  border-radius: 20px;
 }
 
 #adminlogin:hover {
-	box-shadow: 0px 0px 20px 2px lightgrey;
-}
-
-#back {
-	margin-top: 10px;
+  box-shadow: 0px 0px 20px 2px lightgrey;
 }
 
 .userlogin {
-	background: whitesmoke;
-	margin: auto;
-	padding: 30px;
-	width: 30%;
-	margin-top: 20px;
-	border-radius: 20px;
+  background: whitesmoke;
+  padding: 30px;
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 20px;
 }
 
 .userlogin:hover {
-	box-shadow: 0px 0px 20px 2px lightgrey;
+  box-shadow: 0px 0px 20px 2px lightgrey;
 }
 
 label {
-	text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .form-header {
-	text-align: center;
-	justify-content: center;
-	margin-bottom: 10px;
-	margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 
 footer {
-	background: #000000;
-	color: #ffffff;
-	height: 50px;
-	text-align: center;
-	margin: auto;
-	padding-top: 15px;
-	text-transform: uppercase;
+  background: #000000;
+  color: #ffffff;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 760px) {
-	#adminlogin {
-		width: 50%;
-	}
-
-	.userlogin {
-		width: 50%;
-	}
+  #adminlogin {
+    width: 75%;
+  }
+  .userlogin {
+    width: 75%;
+  }
 }

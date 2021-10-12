@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
-html,
-body,
-.cover {
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-}
 
 .cover {
   background: url('../img/background.jpg') top no-repeat;
   background-size: cover;
   background-position: center;
   display: table;
+  height: 100vh;
   padding: 0 20%;
   width: 100%;
   position: relative;
@@ -31,43 +25,11 @@ body,
   background: rgba(0, 0, 0, 0.5);
 }
 
-section {
-  padding: 100px;
-}
-
-#account form {
-  background: whitesmoke;
-  margin: auto;
-  padding: 20px;
-  width: 30%;
-  border-radius: 20px;
-}
-
-form:hover {
-  box-shadow: 0px 0px 20px 2px lightgrey;
-}
-
 form.error {
   color: #ff0000;
 }
 label {
   text-transform: capitalize;
-}
-
-.form-header {
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
-footer {
-  background: #000000;
-  color: #ffffff;
-  height: 50px;
-  text-align: center;
-  margin: auto;
-  padding-top: 15px;
-  text-transform: uppercase;
 }
 
 .footer-link {
@@ -84,19 +46,6 @@ footer {
 }
 /* style for profile */
 
-.profile {
-  height: 100vh;
-}
-
-.details img {
-  width: 200px;
-  margin-bottom: 30px;
-}
-
-.details {
-  margin-right: 20px;
-}
-
 .info h4 {
   text-transform: capitalize;
   font-size: 30px;
@@ -104,6 +53,13 @@ footer {
 
 .info ul li {
   list-style: none;
+}
+.info ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.info ul li a:hover {
+  color: rgb(107, 45, 45);
 }
 
 .post form {
@@ -157,10 +113,4 @@ footer {
 
 .show {
   display: block !important;
-}
-
-@media only screen and (min-device-width: 480px) {
-  #account form {
-    width: 50%;
-  }
 }
