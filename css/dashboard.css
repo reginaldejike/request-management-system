@@ -26,29 +26,16 @@ li :hover {
   color: #ffffff;
 }
 
-.card {
-  width: 20rem;
-  margin-top: 5em;
-  text-align: center;
-}
-
 .card-title {
   text-transform: capitalize;
 }
 
 .table-header {
-  background: #111111;
-  width: 100%;
-  color: #fff;
-  text-align: center;
-  margin-top: 5em;
   padding-bottom: 10px;
   border-radius: 3px;
 }
 
 #request {
-  margin-top: 5em;
-  margin-left: 30px;
   background: lightslategray;
   padding: 20px;
 }
@@ -60,7 +47,6 @@ li :hover {
 #change {
   background: whitesmoke;
   width: 50%;
-  /* margin: 100px; */
   padding: 20px;
   border-radius: 20px;
 }

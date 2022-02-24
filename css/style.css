@@ -25,6 +25,12 @@
   background: rgba(0, 0, 0, 0.5);
 }
 
+.caution {
+  border: lightblue solid;
+  border-radius: 5px;
+  background: rgb(245, 243, 243);
+}
+
 form.error {
   color: #ff0000;
 }
@@ -113,4 +119,33 @@ label {
 
 .show {
   display: block !important;
+}
+
+/*profile */
+.sidebarMenu {
+  height: fit-content;
+}
+.sidebarMenu ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.sidebarMenu ul li {
+  text-transform: capitalize;
+  list-style: none;
+  padding: 10px 15px;
+}
+
+.sidebarMenu ul li a {
+  list-style: none;
+  color: #ffffff;
+}
+
+.sidebarMenu .active,
+li :hover {
+  background: #111111;
+  text-align: center;
+  border-radius: 3px;
+  color: #ffffff;
 }
