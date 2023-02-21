@@ -1,9 +1,9 @@
 // JavaScript for disabling form submissions if there are invalid fields
-;(function () {
-  'use strict'
+(function () {
+  'use strict';
 
   // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
+  var forms = document.querySelectorAll('.needs-validation');
 
   // Loop over them and prevent submission
   Array.prototype.slice.call(forms).forEach(function (form) {
@@ -11,7 +11,7 @@
       'submit',
       function (event) {
         if (!form.checkValidity()) {
-          event.preventDefault()
+          event.preventDefault();
           // let pass = document.getElementById('password').value
           // let cpass = document.getElementById('cnpassword').value
           // if (pass === cpass) {
@@ -19,33 +19,33 @@
           // } else {
           //   console.log('check password')
           // }
-          event.stopPropagation()
+          event.stopPropagation();
         }
 
-        form.classList.add('was-validated')
+        form.classList.add('was-validated');
       },
       false
-    )
-  })
-})()
+    );
+  });
+})();
 
 //home page
 $(function () {
   $('#log').on('click', function () {
-    location = 'userlogin.html'
-  })
+    location = '/Requester/userlogin.html';
+  });
   $('#sign').on('click', function () {
-    location = '#account'
-  })
+    location = '#account';
+  });
   $('.btn').on('click', function (e) {
     // e.preventDefault()
-    let pass = $('#password').val()
-    let cpass = $('#cnpassword').val()
+    let pass = $('#password').val();
+    let cpass = $('#cnpassword').val();
 
     if (pass === cpass) {
-      console.log('pass')
+      console.log('pass');
     } else {
-      console.log('check password')
+      console.log('check password');
     }
-  })
-})
+  });
+});
